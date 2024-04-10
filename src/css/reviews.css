@@ -1,3 +1,13 @@
 .reviews {
-  color: olive;
+  color: var(--text);
+  padding: 80px 0;
+  margin-left: auto;
+}
+.customers {
+  color: #576f35;
+}
+
+.review-text {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
