@@ -32,9 +32,13 @@ body {
 
 .headline2 {
   font-size: 48px;
+  letter-spacing: -0.01em;
+  line-height: 1;
 }
 .headline3 {
   font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.01em;
 }
 
 .visually-hidden {
