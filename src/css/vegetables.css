@@ -50,18 +50,20 @@
 }
 
 @media screen and (min-width: 375px) {
+
+  
+
   .vegetables {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
-  /* .veg-list{
-          display: flex;
-          flex-direction: column;
-        } */
+
+
 }
 
 @media screen and (min-width: 768px) {
+
 
   .vegetables {
     padding-top: 100px;
@@ -92,6 +94,8 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+
 
   .vegetables {
     padding-top: 100px;

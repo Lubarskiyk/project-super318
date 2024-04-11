@@ -1,17 +1,15 @@
 .advertisement {
-  padding: 100px 10px;
+  padding: 80px 10px;
 }
 
 .text {
-  display: inline-block;
+  display: block;
   font-weight: 600;
   font-size: 48px;
   line-height: 1.05263;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: black;
-  max-width: 355px;
-  height: 102px;
 }
 
 .advertisement-text1 {
@@ -21,11 +19,25 @@
   padding: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .advertisement {
-    font-weight: 600;
+    padding: 100px 16px;
+  }
+  .text {
     font-size: 64px;
-    line-height: 1.09375;
+    line-height: 109%;
     letter-spacing: -0.01em;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .text {
+    font-size: 76px;
+    line-height: 105%;
+    letter-spacing: -0.01em;
+
+    display: inline-block;
+  }
+  .advertisement {
+    padding: 100px;
   }
 }
