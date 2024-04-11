@@ -11,7 +11,7 @@ body {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.01em;
-  border-radius: 30%;
+  border-radius: 30px;
   text-transform: uppercase;
   text-align: center;
   display: block;
@@ -34,6 +34,7 @@ body {
   font-size: 48px;
   letter-spacing: -0.01em;
   line-height: 1;
+  text-transform: uppercase;
 }
 .headline3 {
   font-size: 28px;
@@ -53,12 +54,14 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
   }
 }
 
