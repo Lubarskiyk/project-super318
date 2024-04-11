@@ -9,12 +9,12 @@
   line-height: 1.05263;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: black;
+  color: var(--text);
 }
 
 .advertisement-text1 {
-  background-color: #576f35;
-  color: #fff;
+  background-color: var(--background);
+  color: var(--main-text);
   border-radius: 12px;
   padding: 5px;
 }
