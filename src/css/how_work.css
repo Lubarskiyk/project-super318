@@ -1,44 +1,71 @@
 .howworks { 
-
+  
 }
 
-
+.howworks-first-section {
+background: var(--background-2);
+}
 
 .howworks-image-container {
-  background: var(--background-2);
   padding-top: 40px;
   padding-bottom: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
+
+.images-container {
+  position: relative;
+  /* border-radius: 30px; */
+  overflow: hidden;
+}
+
+.images-container::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(20, 20, 20, 0.3);
+}
+
+
 .howworks-image {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  border-radius: 30px;
+ object-fit: cover;
+ object-position: center;
+ aspect-ratio: 335/450;
+ border-radius: 30px;
+}
+
+@media screen  and (min-width: 768px) {
+  .howworks-image{
+    aspect-ratio: 640/640;
+  }
+  
+}
+
+@media screen and (min-width: 1280px) {
+  .howworks-image {
+    aspect-ratio: 430/559;
+  }
+
+}
+
+.howworks-second-section {
+  background: var(--background);
 }
 
 .order-container {
-  background: var(--background);
-  /* padding: 80px 20px; */
   padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.order-description-wrap {
+  padding-bottom: 80px; 
 }
 
 .order-title {
-  font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: var(--main-text);
-  margin-bottom: 20px;
 }
 
 .order-title-color {
@@ -46,33 +73,59 @@
 }
 
 .order-description {
-  font-weight: 500;
   font-size: 14px;
   line-height: 129%;
   color: var(--main-text);
+  margin-bottom: 40px;
 }
 
-.order-step-wrap {
+ol {
+  counter-reset: li;
+  
+}
+
+li::before {
+  content: counter(li) ". ";
+  counter-increment: li;
+}
+
+.list-container {
+  
 }
 
 .order-step-list {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px; */
   list-style: none;
+  list-style-type: decimal;
 }
 
-.order-step-item {}
+.order-step-item {
+  border-radius: 15px;
+  padding: 12px 27px 12px 24px;
+  margin-bottom: 20px;
+  background: var(--main-text);
+}
+
+
+
+.order-step-list:last-child {
+  margin-bottom: 0px;
+}
 
 .order-step-text {
-  font-weight: 500;
   font-size: 12px;
   line-height: 117%;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
+  padding-left: 24px;
 }
 
 .order-step-text-color {
-  font-weight: 700;
   color: var(--text);
 }
+
+
+
+
