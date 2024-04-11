@@ -16,6 +16,7 @@
   "author": "Konstantin Lubarskiy",
   "license": "ISC",
   "dependencies": {
+    "aos": "^3.0.0-beta.6",
     "modern-normalize": "^2.0.0",
     "vite-plugin-full-reload": "^1.1.0",
     "vite-plugin-html-inject": "^1.1.1"
