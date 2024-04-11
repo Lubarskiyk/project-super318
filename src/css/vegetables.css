@@ -50,12 +50,6 @@
 }
 
 @media screen and (min-width: 375px) {
-  .container {
-    max-width: 375px;
-    padding: 0 20px;
-    margin: 0 auto;
-  }
-
   .vegetables {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -68,11 +62,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 
   .vegetables {
     padding-top: 100px;
@@ -97,17 +86,12 @@
   }
 
   .veg-item {
-    /* min-width: 342px; */
+    min-width: 342px;
     margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
 
   .vegetables {
     padding-top: 100px;
@@ -125,7 +109,7 @@
     } */
 
   .veg-item {
-    /* min-width: 346px; */
+    min-width: 346px;
     width: calc((100% - 42px) / 3);
   }
 }
