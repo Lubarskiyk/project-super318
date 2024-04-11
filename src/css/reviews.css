@@ -6,10 +6,13 @@
 .customers {
   color: var(--background);
 }
-
+.reviews-title {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
 .review-title-text {
-  margin-top: 20px;
   margin-bottom: 40px;
+  font-size: 14px;
 }
 
 .reviews-card-list {
@@ -20,9 +23,10 @@
 .reviews-card {
   border: 1px solid rgba(122, 49, 69, 0.3);
   border-radius: 24px;
-  width: 335px;
-  /* padding: 20px 16px; */
   padding: 20px 16px 38px 16px;
+}
+.reviews-photo img {
+  margin-bottom: 24px;
 }
 .reviews-name {
   font-weight: 600;
@@ -31,14 +35,12 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #040306;
-  padding-bottom: 8px;
-  padding-top: 24px;
+  margin-bottom: 8px;
 }
 .rewiews-person-text {
   font-size: 14px;
   text-align: center;
   color: rgba(4, 3, 6, 0.4);
-  max-width: 288px;
 }
 @media screen and (min-width: 768px) {
   .reviews {
@@ -47,10 +49,12 @@
   }
   .reviews-title {
     max-width: 553px;
+    margin-bottom: 25px;
   }
   .review-title-text {
-    margin-top: 25px;
     margin-bottom: 50px;
+    font-size: 16px;
+    max-width: 553px;
   }
   .reviews-card-list {
     flex-direction: row;
@@ -63,8 +67,21 @@
   }
   .reviews-name {
     font-size: 18px;
+    line-height: 1.1;
+    color: var(--text);
   }
   .rewiews-person-text {
     font-size: 16px;
+    line-height: 1.4;
+    color: rgba(20, 20, 20, 0.4);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-card-list {
+    gap: 25px;
+  }
+  .reviews-card {
+    width: calc((100% - 50px) / 3);
   }
 }
