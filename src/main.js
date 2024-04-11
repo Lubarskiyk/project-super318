@@ -1,3 +1,5 @@
+import '/js/aos.js';
+
 // (() => {
 //   const burger = {
 //     BurgerBtn: document.querySelector('#header-burger'),
