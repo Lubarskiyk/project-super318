@@ -1,3 +1,257 @@
-.yuor_order {
-  color: turquoise;
+.order {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: var(--background-2);
+}
+
+.order-title {
+    margin-bottom: 29px;
+}
+
+.order-title span {
+    color: rgba(251, 251, 251, 0.3);
+}
+
+.headline2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.order-text {
+    margin-bottom: 40px;
+}
+
+.order-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.order-form {
+    border-radius: 30px;
+    padding: 40px 20px;
+    background-color: var(--main-text);
+}
+
+.order-form-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--text);
+    margin-bottom: 40px;
+}
+
+.order-form-title .span-first-item {
+    color: var(--background-2);
+}
+
+.order-form-title .span-second-item {
+    color: var(--background);
+
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.taxtarea-label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 30px;
+    padding: 14px 16px;
+    width: 295px;
+    height: 46px;
+    outline: transparent;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: var(--text);
+}
+
+.input-field::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: var(--text);
+}
+
+.input-field:focus {
+    border-color: #7a3145;
+}
+
+.input-field:valid {
+    border-color: #3cbc81;
+}
+
+.input-field:invalid:not(:focus) {
+    border-color: #e74a3b;
+}
+
+
+
+
+.comment-field {
+    border: 1px solid rgba(20, 20, 20, 0.2);
+    border-radius: 15px;
+    padding: 14px 16px;
+    width: 295px;
+    height: 91px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    outline: transparent;
+
+}
+
+.comment-field::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: var(--text);
+}
+
+.comment-field:focus {
+    border-color: #7a3145;
+}
+
+.order-btn {
+    border: none;
+    padding: 16px 129px;
+    width: 295px;
+    height: 50px;
+    background-color: var(--background);
+}
+
+.button {
+    border-radius: 30px;
+}
+
+.order-contacts-wrap {
+    border-radius: 30px;
+    padding: 40px 20px;
+    background-color: var(--background);
+}
+/* 
+.order-image-wrap {
+    position: relative;
+    border-radius: 15px;
+    width: 295px;
+    height: 273px;
+    overflow: hidden;
+    margin-bottom: 20px;
+} */
+
+.order-image {
+    position: relative;
+    /* position: absolute;
+    top: -43px;
+    left: -35px; */
+object-position: center;
+    object-fit: cover;
+    
+}
+
+.order-image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.3);
+}
+
+.order-contacts-descr {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    color: rgba(251, 251, 251, 0.5);
+    margin-bottom: 14px;
+}
+
+.order-contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.order-contacts-item {}
+
+.order-contacts-link {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+    color: var(--main-text);
+}
+
+.order-contacts-link span {
+    margin-left: 8px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .order {
+        padding: 100px 0;
+    }
+    .order-title {
+        margin-bottom: 25px;
+    }
+    .order-text {
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 50px;
+    }
+    .order-form {
+        padding: 50px 100px;
+        width: 628px;
+        height: 534px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input-field {
+        padding: 16px;
+        width: 428px;
+        height: 52px;
+    }
+    .comment-field {
+        padding: 16px;
+        width: 428px;
+        height: 95px;
+    }
+    .order-btn {
+        padding: 16px 191px;
+        width: 428px;
+        height: 52px;
+    }
+    .order-contacts-wrap {
+        padding: 50px;
+        width: 628px;
+        height: 490px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .order-contacts-descr {
+        font-size: 18px;
+        line-height: 1.11;
+        margin-bottom: 15px;
+    }
+    .order-contacts-link {
+        font-size: 32px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+
 }

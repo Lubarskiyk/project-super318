@@ -1,3 +1,95 @@
-<section class="yuor_order">
-  I'm  Your order
+<section class="order">
+  <div class="container">
+    <h2 class="order-title headline2">
+      Fresh <span>Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="order-box">
+      <form class="order-form">
+        <h3 class="order-form-title headline3">
+          Ordering <span class="span-first-item">from us</span> is quick and
+          easy! Fill out <span class="span-second-item">the form</span> below
+          and we will contact you !
+        </h3>
+        <label class="form-label"
+          ><input
+            type="text"
+            name="user-name"
+            placeholder="Full Name"
+            class="input-field"
+            required
+        /></label>
+        <label class="form-label">
+          <input
+            type="email"
+            name="user-mail"
+            placeholder="Email"
+            class="input-field"
+            required
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          />
+        </label>
+        <label class="taxtarea-label">
+          <textarea
+            name=" user-comment"
+            placeholder="Comment"
+            class="comment-field"
+          ></textarea>
+        </label>
+        <button type="submit" class="order-btn button">Send</button>
+      </form>
+
+      <div class="order-contacts-wrap">
+        <div class="order-image-wrap">
+          <picture>
+            <source
+              srcset="/images/fruite_1x.webp 1x, /images/fruite_2x.webp 2x"
+              type="image/webp" />
+
+            <img
+              src="../images/fruite.jpg"
+              alt="women"
+              class="order-image"
+              width="593"
+              height="381"
+          /></picture>
+        </div>
+
+        <p class="order-contacts-descr">Follow us on our social networks:</p>
+        <ul class="order-contacts-list">
+          <li class="order-contacts-item">
+            <a
+              href="https://www.instagram.com/goitclub"
+              target="_blank"
+              aria-label="instagram"
+              class="order-contacts-link"
+              >instagram <span>/</span></a
+            >
+          </li>
+          <li class="order-contacts-item">
+            <a
+              href="https://www.facebook.com/goITclub"
+              target="_blank"
+              aria-label="facebook"
+              class="order-contacts-link"
+              >facebook <span>/</span></a
+            >
+          </li>
+          <li class="order-contacts-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              aria-label="youtube"
+              class="order-contacts-link"
+              >youtube</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </section>
