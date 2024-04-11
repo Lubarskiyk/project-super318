@@ -86,7 +86,7 @@
   }
 
   .veg-item {
-    min-width: 342px;
+    max-width: 342px;
     margin-bottom: 0;
   }
 }
@@ -109,7 +109,7 @@
     } */
 
   .veg-item {
-    min-width: 346px;
+    max-width: 346px;
     width: calc((100% - 42px) / 3);
   }
 }
