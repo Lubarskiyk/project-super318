@@ -95,9 +95,6 @@
     border-color: #e74a3b;
 }
 
-
-
-
 .comment-field {
     border: 1px solid rgba(20, 20, 20, 0.2);
     border-radius: 15px;
@@ -142,28 +139,22 @@
     padding: 40px 20px;
     background-color: var(--background);
 }
-/* 
+
 .order-image-wrap {
     position: relative;
     border-radius: 15px;
-    width: 295px;
-    height: 273px;
     overflow: hidden;
     margin-bottom: 20px;
-} */
-
-.order-image {
-    position: relative;
-    /* position: absolute;
-    top: -43px;
-    left: -35px; */
-object-position: center;
-    object-fit: cover;
-    
 }
 
-.order-image::after {
-    content: "";
+.order-image {
+    object-fit: cover;
+    object-position: top 0 left 0;
+    aspect-ratio: 295 / 273;
+}
+
+.order-image-wrap:after {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -202,7 +193,8 @@ object-position: center;
 
 @media screen and (min-width: 768px) {
     .order {
-        padding: 100px 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     .order-title {
         margin-bottom: 25px;
@@ -214,20 +206,27 @@ object-position: center;
     }
     .order-form {
         padding: 50px 100px;
-        width: 628px;
-        height: 534px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .order-form-title {
+        max-width: 428px;
+        margin-bottom: 50px;
     }
     .input-field {
         padding: 16px;
         width: 428px;
         height: 52px;
+        object-position: left;
+    }
+    .taxtarea-label {
+        margin-bottom: 25px;
     }
     .comment-field {
         padding: 16px;
         width: 428px;
         height: 95px;
+        object-position: left;
     }
     .order-btn {
         padding: 16px 191px;
@@ -236,22 +235,50 @@ object-position: center;
     }
     .order-contacts-wrap {
         padding: 50px;
-        width: 628px;
-        height: 490px;
         margin-left: auto;
         margin-right: auto;
     }
+    .order-image-wrap {
+        margin-bottom: 50px;
+    }
+    .order-image {
+        aspect-ratio: 528 / 273;
+        }
     .order-contacts-descr {
         font-size: 18px;
         line-height: 1.11;
         margin-bottom: 15px;
     }
+    .order-contacts-list {
+        gap: 12px;
+    }
     .order-contacts-link {
         font-size: 32px;
     }
+    .order-contacts-link span {
+    margin-left: 12px;
+}
+
 }
 
 
 @media screen and (min-width: 1280px) {
-
+    .order-title {
+        max-width: 751px;
+    }
+    .order-text {
+        max-width: 751px;
+    }
+    .order-box {
+        flex-direction: row;
+        gap: 24px;
+    }
+    .order-form {
+        padding: 50px;
+    }
+   
+    .order-image {
+        aspect-ratio: 427 / 273;
+        }
+    
 }
