@@ -1,3 +1,56 @@
 .footer {
-  color: orange;
+  padding: 40px 20px;
+  color: var(--main-text);
+  background-color: var(--background-2);
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 14px;
+}
+
+.footer-logo{
+  
+}
+
+.icon1{
+  fill: #fbfbfb;
+
+}
+
+.icon2{
+  fill: #fbfbfb;
+
+}
+
+.footer-text{
+  margin-bottom: 40px;
+}
+
+.link-how{
+  margin-bottom: 40px;
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+align-content: 14px
+;
+max-width: 155px ;
+}
+
+.address{
+  gap: 14px;
+max-width: 215px;
+}
+
+.footer-tel{
+  margin-bottom: 14px;
+}
+
+.footer-email{
+
 }
