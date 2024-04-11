@@ -31,26 +31,59 @@
   margin-bottom: 40px;
 }
 
+.footer-nav{
+  display: flex;
+align-items: start;
+justify-content: start;
+flex-direction: column;
+gap: 14px;
+}
+
 .link-how{
   margin-bottom: 40px;
   display: flex;
 align-items: flex-start;
 justify-content: flex-start;
 flex-direction: column;
-align-content: 14px
-;
-max-width: 155px ;
+align-content: 14px;
+
 }
 
 .address{
   gap: 14px;
-max-width: 215px;
+
+}
+
+.footer-adress-list{
+  display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: column;
+gap: 14px;
+max-width: 215px ;
+margin-bottom: 80px;
 }
 
 .footer-tel{
-  margin-bottom: 14px;
+
 }
 
 .footer-email{
+max-width: 215px;
+}
+
+.footer-policy {
+  display: flex;
+align-items: flex-end;
+justify-content: space-between;
+flex-direction: row;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: -0.01em;
+color: rgba(251, 251, 251, 0.5);
+
+}
+.footer-span-policy {
+
 
 }
