@@ -55,6 +55,16 @@
     padding: 0 20px;
     margin: 0 auto;
   }
+
+  .vegetables {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  /* .veg-list{
+          display: flex;
+          flex-direction: column;
+        } */
 }
 
 @media screen and (min-width: 768px) {
@@ -87,6 +97,7 @@
   }
 
   .veg-item {
+    /* min-width: 342px; */
     margin-bottom: 0;
   }
 }
@@ -107,7 +118,14 @@
     margin-bottom: 25px;
   }
 
+    /* .veg-list{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    } */
+
   .veg-item {
+    /* min-width: 346px; */
     width: calc((100% - 42px) / 3);
   }
 }
