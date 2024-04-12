@@ -29,6 +29,8 @@
 
 .footer-text{
   margin-bottom: 40px;
+font-size: 14px;
+
 }
 
 .footer-nav{
@@ -87,3 +89,73 @@ color: rgba(251, 251, 251, 0.5);
 
 
 }
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px;
+  }
+
+  .icon1{
+    width: 18px;
+    height: 18px;
+  }
+
+  .icon2{
+    width: 168px;
+    height: 15px;
+  }
+
+.footer-text{
+  font-size: 16px;
+  margin-top: 25px;
+  max-width: 265px;
+  
+}
+
+.footer-nav{
+  gap: 25px;
+  margin-bottom: 64px;
+  font-weight: 600;
+font-size: 32px;
+  
+} 
+
+.footer-adress-list{
+  gap: 25px;
+  font-weight: 600;
+font-size: 18px;
+}
+
+  .footer-wrap-big{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-wrap{
+    
+  }
+
+  .footer-policy {
+  gap: 284px;
+  margin-top: 100px;
+  }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .footer {
+      padding: 50px 100px;
+    }
+
+    .footer-wrap{
+      display: flex;
+      flex-direction: row;
+      gap: 121px;
+    }
+
+    .footer-policy {
+      margin-top: 125px;
+      }
+      
+    } 
+  
