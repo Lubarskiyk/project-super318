@@ -6,7 +6,9 @@ body {
   color: var(--main-text);
   background-color: var(--main-text);
 }
-
+.lock {
+  overflow: hidden;
+}
 .button {
   font-size: 14px;
   line-height: 1.29;
