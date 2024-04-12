@@ -79,7 +79,7 @@ background: var(--background-2);
   margin-bottom: 40px;
 }
 
-ol {
+/* ol {
   counter-reset: li;
   
 }
@@ -87,7 +87,7 @@ ol {
 li::before {
   content: counter(li) ". ";
   counter-increment: li;
-}
+} */
 
 .list-container {
   

@@ -12,5 +12,7 @@
     <symbol id="icon-x" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3.2" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
+    <symbol id="icon-menu" viewBox="0 0 32 32"><path fill="none" stroke="#fbfbfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5.333 8h21.333M5.333 16H16M5.333 24h21.333" style="stroke:var(--color1, #fbfbfb)"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 32 32"><path fill="none" stroke="#fbfbfb" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M24 8 8 24M8 8l16 16" style="stroke:var(--color1, #fbfbfb)"/></symbol>
   </defs>
 </svg>
