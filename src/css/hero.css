@@ -1,3 +1,28 @@
 .hero {
   background-color: var(--background);
+  background-image: linear-gradient(rgba(20, 20, 20, 1) 0%, rgba(20, 20, 20, 0.2) 100%),url(/src/images/vegetabls.jpg);
+  background-position: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 128px;
+}
+
+.hero-para {
+  font-size: 16px;
+  line-height: 20;
+  letter-spacing: 0%;
+}
+
+.hero-image {
+  width: 650px;
+  height: 800px;
 }
