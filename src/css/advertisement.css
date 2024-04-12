@@ -34,6 +34,7 @@
     font-size: 76px;
     line-height: 105%;
     letter-spacing: -0.01em;
+    max-width: 1054px;
 
     display: inline-block;
   }
