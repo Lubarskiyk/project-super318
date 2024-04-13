@@ -86,6 +86,8 @@ color: rgba(251, 251, 251, 0.5);
 
 }
 .footer-span-policy {
+  margin-left: 8px;
+  margin-right: 8px;
 
 
 }
@@ -99,6 +101,9 @@ color: rgba(251, 251, 251, 0.5);
     width: 18px;
     height: 18px;
   }
+
+  .link-how{
+    margin-bottom: 0;}
 
   .icon2{
     width: 168px;
@@ -137,7 +142,6 @@ font-size: 18px;
   }
 
   .footer-policy {
-  gap: 284px;
   margin-top: 100px;
   }
   }
@@ -156,6 +160,12 @@ font-size: 18px;
     .footer-policy {
       margin-top: 125px;
       }
+      .footer-nav{
+        margin-bottom: 0;
+      }
       
+      .footer-adress-list{
+    
+      margin-bottom: 0;
     } 
-  
+  }
