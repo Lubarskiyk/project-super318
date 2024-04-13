@@ -18,6 +18,9 @@
 .hero-image-contant {
   position: relative;
 }
+.hero-image-cont {
+  max-width: 375px;
+}
 .hero-image {
   aspect-ratio: 375/370;
 }
@@ -38,6 +41,9 @@
   .hero-para {
     line-height: 125%;
     font-size: 16px;
+  }
+  .hero-image-cont {
+    max-width: 768px;
   }
   .hero-image {
     object-fit: cover;
