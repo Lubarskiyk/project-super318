@@ -1,5 +1,10 @@
 @import url('../../node_modules/modern-normalize/modern-normalize.css');
 @import url('./null.css');
+/* import 'swiper/css'; */
+
+@import url(../../node_modules/swiper/swiper.css);
+@import url(../../node_modules/swiper/modules/pagination.css);
+@import url(../../node_modules/swiper/modules/navigation.css);
 @import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');

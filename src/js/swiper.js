@@ -1,8 +1,5 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
 
 const swiper = new Swiper('.mySwiper', {
   modules: [Navigation, Pagination],
@@ -13,10 +10,12 @@ const swiper = new Swiper('.mySwiper', {
 
     768: {
       slidesPerView: 2,
+      spaceBetween: 18,
     },
 
     1280: {
       slidesPerView: 3,
+      spaceBetween: 25,
     },
   },
   navigation: {
