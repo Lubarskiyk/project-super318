@@ -50,21 +50,13 @@
 }
 
 @media screen and (min-width: 375px) {
-
-  
-
   .vegetables {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-
-
-
 }
 
 @media screen and (min-width: 768px) {
-
-
   .vegetables {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -94,9 +86,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-
-
   .vegetables {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -106,13 +95,13 @@
     margin-bottom: 25px;
   }
 
-     .veg-list{
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      column-gap: 21px;
-        row-gap: 28px;
-    } 
+  .veg-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 21px;
+    row-gap: 28px;
+  }
 
   .veg-item {
     max-width: 346px;
