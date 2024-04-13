@@ -30,7 +30,7 @@
   align-items: center;
 }
 .reviews-image-wrap {
-  display: inline-block;
+  display: block;
   position: relative;
   width: 56px;
   height: 56px;
@@ -50,7 +50,9 @@
   z-index: -1;
 }
 
-.reviews-photo img {
+.reviews-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
