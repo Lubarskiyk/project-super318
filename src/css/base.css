@@ -6,6 +6,9 @@ body {
   color: var(--main-text);
   background-color: var(--main-text);
 }
+.wraper {
+  overflow: hidden;
+}
 .lock {
   overflow: hidden;
 }

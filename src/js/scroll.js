@@ -28,16 +28,26 @@ function scrollToSection() {
     };
     requestAnimationFrame(animation);
   }
+  const refs = {
+    menu: document.querySelector('.navigation-wrapper'),
+    modal: document.querySelector('.modal'),
+    body: document.querySelector('body'),
+    wrapper: document.querySelector('.navigation-wrapper'),
+  };
+  function removeClass() {
+    refs.menu.classList.remove('is-open');
+    refs.modal.classList.remove('is-open-modal');
+    refs.body.classList.remove('lock');
+  }
   const links = document.querySelectorAll('a.scroll-to');
   if (links) {
     links.forEach(link => {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         const currentTarget = this.getAttribute('href');
-        if (refs.mobilemenu) {
-          refs.mobilemenu.classList.contains('is-open')
-            ? refs.modal.classList.remove('is-open')
-            : null;
+        console.log(refs.menu);
+        if (refs.menu) {
+          refs.menu.classList.contains('is-open') ? removeClass() : null;
         }
         smoothScroll(currentTarget, 1000);
       });
