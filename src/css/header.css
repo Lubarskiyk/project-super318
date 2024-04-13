@@ -23,20 +23,10 @@
   padding-bottom: 17px;
 }
 
-.header-logo-icon {
-  height: 16px;
-}
-
-.header-logo-text {
-}
-
 .mobile-menu-btn {
   border: none;
   background-color: transparent;
   fill: #fbfbfb;
-}
-
-.header-menu-icon {
 }
 
 .navigation-wrapper {
@@ -88,6 +78,11 @@
   color: #fbfbfb;
 }
 
+.current {
+  background-color: #fbfbfb;
+  color: #7a3145;
+}
+
 .header-btn {
   border-radius: 30px;
   background-color: #fbfbfb;
@@ -122,6 +117,11 @@
   .header-menu {
     display: block;
   }
+
+    .header-btn:focus {
+      color: rgba(122, 49, 69, 0.7);
+      transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -131,9 +131,55 @@
   .is-open-modal {
     transform: translateX(0);
   }
+
+  .header-logo-icon {
+    height: 18px;
+    width: 18px;
+  }
+
+    .header-logo-text {
+      width: 168px;
+      height: 15px;
+    }
+
+    .header-logo-link {
+      gap: 8px;
+    }
+
+    .header-btn {
+      background-color: transparent;
+      border: 1px solid rgba(251, 251, 251, 0.2);
+      color: #fbfbfb;
+    }
+
+      .header-btn:focus {
+        background-color: #fbfbfb;
+        color: #7a3145;
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .header-close-icon {
+        width: 40px;
+        height: 40px;
+      }
+
+      .header-menu-icon {
+        width: 40px;
+        height: 40px;
+      }
 }
 
 @media screen and (min-width: 1280px) {
+
+  .header-logo-icon {
+      height: 18px;
+      width: 18px;
+    }
+
+      .header-logo-text {
+        width: 168px;
+      }
+
   .navigation-wrapper {
     display: flex;
     flex-direction: row;
@@ -171,6 +217,11 @@
     min-width: initial;
   }
 
+  .current {
+    background-color: transparent;
+    color: #fbfbfb;
+  }
+
   .header-btn {
     border-radius: 30px;
     padding: 16px 32px;
@@ -182,5 +233,15 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
+    border: none;
+  }
+
+
+
+  .header-btn:hover,
+  .header-btn:focus {
+    background-color: #622133;
+    color: #fbfbfb;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
