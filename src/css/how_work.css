@@ -1,22 +1,10 @@
-.howworks {
-  /* background: var(--background-2);
-  position: relative; */
-}
-/* .howworks::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  background: var(--background);
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-} */
-
 .howworks-container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
+  background: var(--background-2);
+  background-position: 0 0;
+  background-size: 50vw;
 }
 
 .howworks-first-section {
@@ -139,10 +127,10 @@
 
 @media screen and (min-width: 768px) {
   .howworks-first-section {
-    padding-top: 100px;
+    /* padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 32px;
-    padding-right: 32px;
+    padding-right: 32px; */
   }
 
   .howworks-image {
@@ -150,37 +138,20 @@
   }
 
   .howworks-second-section {
-    padding-top: 100px;
+    /* padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 160px;
-    padding-right: 160px;
+    padding-right: 160px; */
   }
 }
 
 @media screen and (min-width: 1280px) {
-  /* .howworks {
-    background: var(--background-2);
-    position: relative;
-  }
-  .howworks::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    background: var(--background);
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-  } */
-
   .howworks-container {
     flex-direction: row;
-    padding-left: 0;
-    padding-right: 0;
+    justify-content: center;
   }
 
   .howworks-first-section {
-    padding: 100px 100px 100px 100px;
     max-width: 630px;
     width: 100%;
   }
@@ -190,7 +161,6 @@
   }
 
   .howworks-second-section {
-    padding: 100px 100px 100px 100px;
     max-width: 650px;
     width: 100%;
   }
