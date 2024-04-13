@@ -40,7 +40,7 @@
   background-color: #7a3145;
   top: 0;
   right: 0;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
   transform: translateX(100%);
   transition: transform 300ms var(--trns);
   z-index: 10;
