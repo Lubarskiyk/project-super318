@@ -1,5 +1,6 @@
 import '/js/aos.js';
-import '/js/openmenu.js'
+import '/js/openmenu.js';
+import '/js/swiper.js';
 
 // (() => {
 //   const burger = {
