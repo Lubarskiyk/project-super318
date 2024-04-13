@@ -158,7 +158,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .howworks {
+  /* .howworks {
     background: var(--background-2);
     position: relative;
   }
@@ -171,11 +171,9 @@
     width: 100%;
     height: 100%;
     z-index: 0;
-  }
+  } */
 
   .howworks-container {
-    position: relative;
-    z-index: 1;
     flex-direction: row;
     padding-left: 0;
     padding-right: 0;
