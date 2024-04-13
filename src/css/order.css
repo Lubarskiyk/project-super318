@@ -1,302 +1,297 @@
 .order {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    background-color: var(--background-2);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: var(--background-2);
 }
 
 .order-title {
-    margin-bottom: 29px;
+  margin-bottom: 29px;
 }
 
 .order-title span {
-    color: rgba(251, 251, 251, 0.3);
-}
-
-.headline2 {
-    font-weight: 600;
-    text-transform: uppercase;
+  color: rgba(251, 251, 251, 0.3);
 }
 
 .order-text {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .order-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }
 
 .order-form {
-    border-radius: 30px;
-    padding: 40px 20px;
-    background-color: var(--main-text);
+  border-radius: 30px;
+  padding: 40px 20px;
+  background-color: var(--main-text);
 }
 
 .order-form-title {
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 24px;
-    color: var(--text);
-    margin-bottom: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--text);
+  margin-bottom: 40px;
 }
 
 .order-form-title .span-first-item {
-    color: var(--background-2);
+  color: var(--background-2);
 }
 
 .order-form-title .span-second-item {
-    color: var(--background);
-
+  color: var(--background);
 }
 
 .form-label {
-    display: block;
-    margin-bottom: 15px;
+  display: block;
+  margin-bottom: 15px;
 }
 
 .taxtarea-label {
-    display: block;
-    margin-bottom: 20px;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .input-field {
-    border: 1px solid rgba(20, 20, 20, 0.2);
-    border-radius: 30px;
-    padding: 14px 16px;
-    width: 100%;
-    outline: transparent;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: var(--text);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 30px;
+  padding: 14px 16px;
+  width: 100%;
+  outline: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-field::placeholder {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
 .input-field:focus.input-field:hover {
-    border-color: #7a3145;
+  border-color: #7a3145;
 }
 
 .input-field:valid {
-    border-color: #3cbc81;
+  border-color: #3cbc81;
 }
 
 .input-field:invalid:not(:focus) {
-    border-color: #e74a3b;
+  border-color: #e74a3b;
 }
 
 .comment-field {
-    border: 1px solid rgba(20, 20, 20, 0.2);
-    border-radius: 15px;
-    padding: 14px 16px;
-    width: 100%;
-    height: 91px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: var(--text);
-    outline: transparent;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 91px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comment-field::placeholder {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
-    color: var(--text);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: var(--text);
 }
 
-.comment-field:focus, .comment-field:hover {
-    border-color: #7a3145;
+.comment-field:focus,
+.comment-field:hover {
+  border-color: #7a3145;
 }
 
 .order-btn {
-    border: none;
-    width: 100%;
-    padding: 16px;
-    background-color: var(--background);
-    transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--background);
+  transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-btn:focus, .order-btn:hover {
-    box-shadow: 1px 6px 36px 6px rgba(37, 71, 6, 0.71);
-    background-color: #344f33;
+.order-btn:focus,
+.order-btn:hover {
+  box-shadow: 1px 6px 36px 6px rgba(37, 71, 6, 0.71);
+  background-color: #344f33;
 }
 
 .button {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 .order-contacts-wrap {
-    border-radius: 30px;
-    padding: 40px 20px;
-    background-color: var(--background);
+  border-radius: 30px;
+  padding: 40px 20px;
+  background-color: var(--background);
 }
 
 .order-image-wrap {
-    position: relative;
-    border-radius: 15px;
-    overflow: hidden;
-    margin-bottom: 20px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .order-image {
-    object-fit: cover;
-    object-position: top 0 left 0;
-    aspect-ratio: 295 / 273;
+  object-fit: cover;
+  object-position: top 0 left 0;
+  aspect-ratio: 295 / 273;
 }
 
 .order-image-wrap:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(20, 20, 20, 0.3);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.3);
 }
 
 .order-contacts-descr {
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    color: rgba(251, 251, 251, 0.5);
-    margin-bottom: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 14px;
 }
 
 .order-contacts-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
-.order-contacts-item {}
+.order-contacts-item {
+}
 
 .order-contacts-link {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 1.08;
-    letter-spacing: -0.01em;
-    color: var(--main-text);
-    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), font-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  color: var(--main-text);
+  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    font-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.order-contacts-link:hover, .order-contacts-link:focus {
-    font-size: 32px;
-    text-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
+.order-contacts-link:hover,
+.order-contacts-link:focus {
+  font-size: 32px;
+  text-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 }
 
 .order-contacts-link span {
-    margin-left: 8px;
+  margin-left: 8px;
 }
-
 
 @media screen and (min-width: 768px) {
-    .order {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .order-title {
-        margin-bottom: 25px;
-    }
-    .order-text {
-        font-size: 16px;
-        line-height: 1.25;
-        margin-bottom: 50px;
-    }
-    .order-box {
-        padding-left: 54px;
-        padding-right: 54px;
-    }
-    .order-form {
-        padding: 50px 100px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .order-form-title {
-        max-width: 428px;
-        margin-bottom: 50px;
-    }
-    .input-field {
-        padding: 16px;
-        width: 428px;
-        height: 52px;
-        object-position: left;
-    }
-    .taxtarea-label {
-        margin-bottom: 25px;
-    }
-    .comment-field {
-        padding: 16px;
-        width: 428px;
-        height: 95px;
-        object-position: left;
-    }
-    .order-btn {
-        padding: 16px 191px;
-        width: 428px;
-        height: 52px;
-    }
-    .order-contacts-wrap {
-        padding: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .order-image-wrap {
-        margin-bottom: 50px;
-    }
+  .order {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .order-title {
+    margin-bottom: 25px;
+  }
+  .order-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 50px;
+  }
+  .order-box {
+    padding-left: 54px;
+    padding-right: 54px;
+  }
+  .order-form {
+    padding: 50px 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order-form-title {
+    max-width: 428px;
+    margin-bottom: 50px;
+  }
+  .input-field {
+    padding: 16px;
+    width: 428px;
+    height: 52px;
+    object-position: left;
+  }
+  .taxtarea-label {
+    margin-bottom: 25px;
+  }
+  .comment-field {
+    padding: 16px;
+    width: 428px;
+    height: 95px;
+    object-position: left;
+  }
+  .order-btn {
+    padding: 16px 191px;
+    width: 428px;
+    height: 52px;
+  }
+  .order-contacts-wrap {
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .order-image-wrap {
+    margin-bottom: 50px;
+  }
 
-    .order-image {
-        aspect-ratio: 528 / 273;
-        
-        }
+  .order-image {
+    aspect-ratio: 528 / 273;
+  }
 
-    .order-contacts-descr {
-        font-size: 18px;
-        line-height: 1.11;
-        margin-bottom: 15px;
-    }
-    .order-contacts-list {
-        gap: 12px;
-    }
-    .order-contacts-link {
-        font-size: 32px;
-    }
-    .order-contacts-link span {
+  .order-contacts-descr {
+    font-size: 18px;
+    line-height: 1.11;
+    margin-bottom: 15px;
+  }
+  .order-contacts-list {
+    gap: 12px;
+  }
+  .order-contacts-link {
+    font-size: 32px;
+  }
+  .order-contacts-link span {
     margin-left: 12px;
+  }
 }
-
-}
-
 
 @media screen and (min-width: 1280px) {
-    .order-title {
-        max-width: 751px;
-    }
-    .order-text {
-        max-width: 751px;
-    }
-    .order-box {
-        flex-direction: row;
-        gap: 24px;
-        padding: 0;
-    }
-    .order-form {
-        padding: 50px;
-    }
-    .order-image {
-        aspect-ratio: 427 / 273;
-        }
-    
+  .order-title {
+    max-width: 751px;
+  }
+  .order-text {
+    max-width: 751px;
+  }
+  .order-box {
+    flex-direction: row;
+    gap: 24px;
+    padding: 0;
+  }
+  .order-form {
+    padding: 50px;
+  }
+  .order-image {
+    aspect-ratio: 427 / 273;
+  }
 }

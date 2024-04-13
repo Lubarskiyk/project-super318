@@ -51,6 +51,13 @@ align-content: 14px;
 
 }
 
+.link-how:hover,
+.link-how:focus {
+  background-color: #fbfbfb;
+  color: #7a3145;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .address{
   gap: 14px;
 
@@ -66,9 +73,37 @@ max-width: 215px ;
 margin-bottom: 80px;
 }
 
-.footer-tel{
+.footer-tel:hover,
+.footer-tel:focus{
+  background-color: #fbfbfb;
+  color: #7a3145;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+.footer-email:hover,
+.footer-email:focus{
+  background-color: #fbfbfb;
+  color: #7a3145;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.icon1:hover,
+.icon1:focus{
+  background-color: #fbfbfb;
+  fill: #7a3145;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon2:hover,
+.icon2:focus{
+  background-color: #fbfbfb;
+  fill: #7a3145;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
 
 .footer-email{
 max-width: 215px;
