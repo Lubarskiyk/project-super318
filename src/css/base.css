@@ -19,10 +19,6 @@ body {
   display: block;
   cursor: pointer;
 }
-.button-base:hover,
-.button-base:focus {
-  color: rgba(122, 49, 69, 0.7);
-}
 
 .headline1 {
   font-weight: 600;
@@ -33,6 +29,8 @@ body {
 }
 
 .headline2 {
+  font-weight: 600;
+  text-transform: uppercase;
   font-size: 48px;
   letter-spacing: -0.01em;
   line-height: 1;
@@ -95,5 +93,8 @@ body {
     max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
+  }
+  .headline2 {
+    font-size: 64px;
   }
 }
