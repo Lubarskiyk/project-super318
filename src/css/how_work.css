@@ -2,9 +2,13 @@
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  background: var(--background-2);
-  background-position: 0 0;
-  background-size: 50vw;
+  background: linear-gradient(
+    90deg,
+    rgba(122, 49, 69, 1) 0%,
+    rgba(122, 49, 69, 1) 50%,
+    rgba(87, 111, 53, 1) 50%,
+    rgba(87, 111, 53, 1) 100%
+  );
 }
 
 .howworks-first-section {
