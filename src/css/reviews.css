@@ -26,8 +26,11 @@
   padding: 20px 16px 38px 16px;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
+}
+
+.reviews-card:not(:first-child) {
+  display: none;
 }
 .reviews-image-wrap {
   display: block;
@@ -93,6 +96,12 @@
     width: calc((100% - 18px) / 2);
     padding: 20px;
   }
+
+  @media screen and (min-width: 768px) {
+    .reviews-card:not(:last-child) {
+      display: flex;
+    }
+  }
   .reviews-name {
     font-size: 18px;
     line-height: 1.1;
@@ -111,5 +120,9 @@
   }
   .reviews-card {
     width: calc((100% - 50px) / 3);
+  }
+
+  .reviews-card:last-child {
+    display: flex;
   }
 }
