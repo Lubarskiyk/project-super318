@@ -20,7 +20,7 @@ function scrollToSection() {
       const run = ease(
         timeElapsed,
         startPosition,
-        targetPosition - 100,
+        targetPosition - 84,
         duration
       );
       window.scrollTo(0, run);
