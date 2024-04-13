@@ -6,9 +6,9 @@
 
 .veg-main-title {
   margin-bottom: 20px;
-  color: var(--main-text);
+  /* color: var(--main-text);
   font-weight: 600;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 .veg-span-title {
@@ -63,12 +63,12 @@
   }
 
   .veg-main-title {
-    width: 508px;
+    max-width: 508px;
     margin-bottom: 50px;
   }
 
   .veg-main-text {
-    width: 626px;
+    max-width: 626px;
     margin-bottom: 50px;
   }
 
