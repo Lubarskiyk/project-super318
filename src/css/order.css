@@ -189,10 +189,11 @@
     line-height: 1.08;
     letter-spacing: -0.01em;
     color: var(--main-text);
-    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), font-size 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-contacts-link:hover, .order-contacts-link:focus {
+    font-size: 32px;
     text-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 }
 
@@ -213,6 +214,10 @@
         font-size: 16px;
         line-height: 1.25;
         margin-bottom: 50px;
+    }
+    .order-box {
+        padding-left: 54px;
+        padding-right: 54px;
     }
     .order-form {
         padding: 50px 100px;
@@ -254,7 +259,7 @@
 
     .order-image {
         aspect-ratio: 528 / 273;
-        width: 528px;
+        
         }
 
     .order-contacts-descr {
@@ -285,6 +290,7 @@
     .order-box {
         flex-direction: row;
         gap: 24px;
+        padding: 0;
     }
     .order-form {
         padding: 50px;
