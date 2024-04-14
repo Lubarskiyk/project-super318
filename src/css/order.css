@@ -78,7 +78,7 @@
   color: var(--text);
 }
 
-.input-field:focus.input-field:hover {
+.input-field:focus, .input-field:hover {
   border-color: #7a3145;
 }
 
@@ -86,7 +86,7 @@
   border-color: #3cbc81;
 }
 
-.input-field:invalid:not(:focus) {
+.input-field:invalid {
   border-color: #e74a3b;
 }
 
