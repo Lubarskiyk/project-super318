@@ -8,8 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 4px;
+  flex-direction: row;  
   margin-bottom: 14px;
   border: 0
   ;
@@ -160,14 +159,12 @@ color: rgba(251, 251, 251, 0.5);
 
 .footer-text{
   font-size: 16px;
-  margin-top: 25px;
   max-width: 265px;
   
 }
 
 .footer-nav{
   gap: 25px;
-  margin-bottom: 64px;
   font-weight: 600;
 font-size: 32px;
   
@@ -175,6 +172,7 @@ font-size: 32px;
 
 .footer-nav-links {
   gap: 25px;
+  margin-bottom: 64px;
 }
 
 
@@ -182,6 +180,7 @@ font-size: 32px;
   gap: 25px;
   font-weight: 600;
 font-size: 18px;
+margin-bottom: 100px;
 }
 
   .footer-wrap-big{
@@ -193,11 +192,7 @@ font-size: 18px;
   .footer-wrap{
     
   }
-
-  .footer-policy {
-  margin-top: 100px;
-  }
-  }
+}
 
   @media screen and (min-width: 1280px) {
     .footer {
@@ -211,7 +206,7 @@ font-size: 18px;
     }
 
     .footer-policy {
-      margin-top: 125px;
+      
       }
       .footer-nav{
         margin-bottom: 0;
@@ -219,6 +214,7 @@ font-size: 18px;
 
       .footer-nav-links{
         gap: 25px;
+        margin-bottom: 125px;
       }
       
       .footer-adress-list{
