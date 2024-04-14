@@ -27,6 +27,7 @@
   padding: 20px 16px 38px 16px;
   flex-direction: column;
   align-items: center;
+  height: auto;
 }
 
 .reviews-image-wrap {
