@@ -8,10 +8,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 4px;
+  flex-direction: row;  
   margin-bottom: 14px;
+  border: 0
+  ;
 }
+
 
 .footer-logo{
   
@@ -19,6 +21,7 @@
 
 .icon1{
   fill: #fbfbfb;
+  margin-right: 4px;
 
 }
 
@@ -81,35 +84,38 @@ margin-bottom: 80px;
 
 .footer-tel:hover,
 .footer-tel:focus{
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb;
   color: #7a3145;
-  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1); */
+  /* font-size: 32px; */
+  text-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 }
 
 .footer-email:hover,
 .footer-email:focus{
-  background-color: #fbfbfb;
+  /* background-color: #fbfbfb;
   color: #7a3145;
-  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1); */
+  /* font-size: 32px; */
+    text-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 
 }
 
-.icon1:hover,
+/* .icon1:hover,
 .icon1:focus{
-  background-color: #fbfbfb;
-  fill: #7a3145;
-  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 }
 
 .icon2:hover,
 .icon2:focus{
-  background-color: #fbfbfb;
-  fill: #7a3145;
-  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  box-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
+} */
 
+.icon:hover,
+.icon:focus{
+  box-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 }
-
 
 .footer-email{
 max-width: 215px;
@@ -153,14 +159,12 @@ color: rgba(251, 251, 251, 0.5);
 
 .footer-text{
   font-size: 16px;
-  margin-top: 25px;
   max-width: 265px;
   
 }
 
 .footer-nav{
   gap: 25px;
-  margin-bottom: 64px;
   font-weight: 600;
 font-size: 32px;
   
@@ -168,6 +172,7 @@ font-size: 32px;
 
 .footer-nav-links {
   gap: 25px;
+  margin-bottom: 64px;
 }
 
 
@@ -175,6 +180,7 @@ font-size: 32px;
   gap: 25px;
   font-weight: 600;
 font-size: 18px;
+margin-bottom: 100px;
 }
 
   .footer-wrap-big{
@@ -186,11 +192,7 @@ font-size: 18px;
   .footer-wrap{
     
   }
-
-  .footer-policy {
-  margin-top: 100px;
-  }
-  }
+}
 
   @media screen and (min-width: 1280px) {
     .footer {
@@ -204,7 +206,7 @@ font-size: 18px;
     }
 
     .footer-policy {
-      margin-top: 125px;
+      
       }
       .footer-nav{
         margin-bottom: 0;
@@ -212,6 +214,7 @@ font-size: 18px;
 
       .footer-nav-links{
         gap: 25px;
+        margin-bottom: 125px;
       }
       
       .footer-adress-list{
