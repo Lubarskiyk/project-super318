@@ -24,4 +24,11 @@
   --font-family: 'Inter Tight', sans-serif;
 
   --trns: cubic-bezier(0.4, 0, 0.2, 1);
+  --swiper-pagination-bottom: -5px;
+  --swiper-pagination-color: #7a3145;
+  --swiper-navigation-color: #7a3145;
+  --swiper-pagination-bullet-inactive-color: #576f35;
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-size: 24px;
+  --swiper-navigation-sides-offset: 1px;
 }

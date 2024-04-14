@@ -1,3 +1,10 @@
+.mySwiper {
+  padding-bottom: 20px;
+}
+.swiper-nav-font {
+  font-weight: 900;
+}
+
 .reviews {
   color: var(--text);
   padding-top: 80px;
