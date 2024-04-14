@@ -45,7 +45,6 @@ function scrollToSection() {
       link.addEventListener('click', function (e) {
         e.preventDefault();
         const currentTarget = this.getAttribute('href');
-        console.log(refs.menu);
         if (refs.menu) {
           refs.menu.classList.contains('is-open') ? removeClass() : null;
         }
