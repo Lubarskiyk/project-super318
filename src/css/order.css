@@ -6,6 +6,7 @@
 
 .order-title {
   margin-bottom: 29px;
+  text-transform: uppercase;
 }
 
 .order-title span {
