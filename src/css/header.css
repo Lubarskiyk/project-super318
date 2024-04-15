@@ -234,6 +234,7 @@
     font-size: 16px;
     color: #fbfbfb;
     min-width: initial;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .current {
@@ -261,4 +262,12 @@
     color: #fbfbfb;
     transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+  .header-navigation-link:hover, 
+  .header-navigation-link:focus {
+    background-color: rgba(251, 251, 251, 0.2);
+
+  }
+
+
 }
