@@ -217,13 +217,13 @@
     margin-bottom: 50px;
   }
   .order-box {
-    padding-left: 54px;
-    padding-right: 54px;
+    padding-left: 38px;
+    padding-right: 38px;
+    align-items: center;
   }
   .order-form {
     padding: 50px 100px;
-    margin-left: auto;
-    margin-right: auto;
+  
   }
   .order-form-title {
     max-width: 428px;
@@ -247,8 +247,6 @@
   }
   .order-contacts-wrap {
     padding: 50px;
-    margin-left: auto;
-    margin-right: auto;
   }
   .order-image-wrap {
     margin-bottom: 50px;
@@ -256,6 +254,7 @@
 
   .order-image {
     aspect-ratio: 528 / 273;
+    width: 528px;
   }
 
   .order-contacts-descr {
