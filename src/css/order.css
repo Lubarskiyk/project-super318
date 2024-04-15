@@ -78,8 +78,8 @@
   color: var(--text);
 }
 
-
-.input-field:focus, .input-field:hover {
+.input-field:focus,
+.input-field:hover {
   border-color: #7a3145;
 }
 
@@ -87,9 +87,10 @@
   border-color: #3cbc81;
 }
 
-.input-field[type="text"]:focus:invalid, .input-field[type="email"]:focus:invalid {
+.input-field[type='text']:focus:invalid {
   border-color: #e74a3b;
 }
+/* .input-field[type="email"]:focus:invalid */
 
 .comment-field {
   border: 1px solid rgba(20, 20, 20, 0.2);
@@ -223,7 +224,6 @@
   }
   .order-form {
     padding: 50px 100px;
-  
   }
   .order-form-title {
     max-width: 428px;
