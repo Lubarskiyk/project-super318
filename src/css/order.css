@@ -78,6 +78,7 @@
   color: var(--text);
 }
 
+
 .input-field:focus, .input-field:hover {
   border-color: #7a3145;
 }
@@ -86,7 +87,7 @@
   border-color: #3cbc81;
 }
 
-.input-field:invalid {
+.input-field[type="text"]:focus:invalid, .input-field[type="email"]:focus:invalid {
   border-color: #e74a3b;
 }
 
@@ -230,8 +231,6 @@
   }
   .input-field {
     padding: 16px;
-    width: 428px;
-    height: 52px;
     object-position: left;
   }
   .taxtarea-label {
@@ -239,14 +238,12 @@
   }
   .comment-field {
     padding: 16px;
-    width: 428px;
+    width: 100%;
     height: 95px;
     object-position: left;
   }
   .order-btn {
     padding: 16px 191px;
-    width: 428px;
-    height: 52px;
   }
   .order-contacts-wrap {
     padding: 50px;
