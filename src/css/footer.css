@@ -112,9 +112,17 @@ margin-bottom: 80px;
   box-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
 } */
 
-.icon:hover,
-.icon:focus{
-  box-shadow: -10px -4px 9px rgba(0, 0, 0, 0.87);
+.icon1:hover,
+.icon1:focus{
+ width: 20px;
+ height: 20px;
+ box-shadow: -10px -4px 9px rgba(0, 0, 0, 0);
+}
+.icon2:hover,
+.icon2:focus{
+ width: 175px;
+ height: 20px;
+ box-shadow: -10px -4px 9px rgba(0, 0, 0, 0);
 }
 
 .footer-email{
