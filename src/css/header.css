@@ -26,8 +26,8 @@
   gap: 4px;
   align-items: center;
   fill: #fbfbfb;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .mobile-menu-btn {
@@ -158,6 +158,8 @@
   }
 
   .header-logo-link {
+    padding-top: 11px;
+    padding-bottom: 11px;
     gap: 8px;
   }
 
@@ -193,7 +195,10 @@
   .header-logo-text {
     width: 168px;
   }
-
+  .header-logo-link {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
   .navigation-wrapper {
     display: flex;
     flex-direction: row;

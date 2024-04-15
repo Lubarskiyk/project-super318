@@ -1,5 +1,24 @@
 function scrollToSection() {
   function smoothScroll(targetEl, duration) {
+    console.log(targetEl);
+    let deltaTargetPosition = 84;
+    if (
+      window.matchMedia('(min-width: 1280px)').matches &&
+      targetEl != '#howworks'
+    ) {
+      deltaTargetPosition = 62;
+    } else if (
+      window.matchMedia('(min-width: 768px)').matches &&
+      targetEl != '#howworks'
+    ) {
+      deltaTargetPosition = 52;
+    } else if (
+      window.matchMedia('(min-width: 320px)').matches &&
+      targetEl != '#howworks'
+    ) {
+      deltaTargetPosition = 44;
+    }
+
     let target = document.querySelector(targetEl);
     if (!target) {
       console.log('елемент куди скролити не знайдено:', targetEl);
@@ -20,7 +39,7 @@ function scrollToSection() {
       const run = ease(
         timeElapsed,
         startPosition,
-        targetPosition - 84,
+        targetPosition - deltaTargetPosition,
         duration
       );
       window.scrollTo(0, run);
