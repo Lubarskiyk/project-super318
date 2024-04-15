@@ -1,10 +1,8 @@
 .advertisement {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: var(--main-text);
 }
-/* .advertisement-wrap {
-  padding: 0 10px;
-} */
 
 .text {
   display: block;
@@ -15,33 +13,31 @@
   text-transform: uppercase;
   color: var(--text);
 }
-
 .advertisement-text1 {
-  background-color: var(--background);
+  position: relative;
   color: var(--main-text);
-  border-radius: 12px;
-  padding: 5px;
+  z-index: 1;
 }
-.advertisement-text {
-  background-color: var(--main-text);
+.advertisement-text1:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: 100%;
+  background-color: var(--background);
+  border-radius: 12px;
+  z-index: -1;
+  /* padding: 5px; */
 }
 
 @media screen and (min-width: 768px) {
   .advertisement {
-    padding: 100px 16px;
+    padding: 100px 32px;
   }
-
-  .advertisement-text1 {
-    padding: 8px 16px;
-  }
-
-  .advertisement-text2 {
-    display: inline-block;
-    padding: 8px 16px;
-  }
-  .advertisement-text {
-    padding-left: 16px;
-    padding-right: 16px;
+  .advertisement-text1:after {
+    left: -16px;
+    width: calc(100% + 32px);
   }
 
   .text {
@@ -52,29 +48,18 @@
 }
 @media screen and (min-width: 1280px) {
   .advertisement {
-    padding: 100px;
-    padding-left: 113px;
+    padding: 100px 113px;
   }
-  .advertisement-text {
-    padding: 0;
-  }
-  .advertisement-text1 {
-    margin-left: -13px;
-    padding: 0;
-    padding-left: 13px;
-  }
-  .advertisement-text2 {
-    padding: 0;
-    display: unset;
-  }
+
   .text {
     font-size: 76px;
     line-height: 105%;
-    letter-spacing: -0.01em;
-    display: inline-block;
   }
-
-  /* .advertisement-wrap {
-    padding: 0 101px;
-  } */
+  .advertisement-text1 {
+    display: inline;
+  }
+  .advertisement-text1:after {
+    left: -13px;
+    width: calc(100% + 26px);
+  }
 }
